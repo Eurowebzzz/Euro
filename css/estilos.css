@@ -1,0 +1,221 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.texto-naranja {
+    font-weight: 300;
+    color: orange;
+}
+
+.texto-blanco {
+    font-weight: 700;
+    color: #fff;
+}
+
+.texto-negro {
+	color: #000;
+}
+/* ------------------------- */
+/* Header */
+/* ------------------------- */
+.header {
+    background: url('../media/bg-imagen.jpg');
+    background-position: center;
+}
+.header .contenedor-titulo {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.header .titulo {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.header .contenedor-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    font-size: 40px;
+    animation: bajar-subir 1s ease infinite;
+}
+.bg-video {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.gif {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    top: 50px;
+}
+/* ------------------------- */
+/* Somos */
+/* ------------------------- */
+.somos {
+    
+    background-image: url('../media/3.png');
+    background-size: cover;
+    
+}
+/* 4 */
+.cuatro {
+    background-image: url('../media/4.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 5 */
+.cinco {
+    background-image: url('../media/5.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 6 */
+.seis {
+    background-image: url('../media/6.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 7 */
+.siete {
+    background-image: url('../media/7.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 8 */
+.ocho {
+    background-image: url('../media/8.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 9 */
+.nueve {
+    background-image: url('../media/9.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 10 */
+.diez {
+    background-image: url('../media/10.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 11 */
+.once {
+    background-image: url('../media/11.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 12 */
+.doce {
+    background-image: url('../media/12.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 13 */
+.trece {
+    background-image: url('../media/13.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 14 */
+.catorce {
+    background-image: url('../media/14.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 15 */
+.quince {
+    background-image: url('../media/15.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 16 */
+.diezyseis {
+    background-image: url('../media/16.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 17 */
+.diezysiete {
+    background-image: url('../media/17.png');
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* 18 */
+.diezyocho {
+    background-image: url('../media/18.png');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+.redes
+ {
+    background: bg-imagen('../media/18/Embedded\ Link\ \(2\)\ 2.png');
+    background-position: center;
+}
+
+@keyframes bajar-subir {
+    0% {transform: translateY(20px);}
+    25% {transform: translateY(0);}
+    100% {transform: translateY(20px);}
+}
+/* ------------------------- */
+/* Footer */
+/* ------------------------- */
